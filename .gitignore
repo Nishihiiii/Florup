@@ -1,0 +1,20 @@
+# локальные секреты и настройки окружения не публикуются в github
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# зависимости устанавливаются командой npm install и не хранятся в репозитории
+node_modules/
+**/node_modules/
+
+# временные файлы сборки frontend
+frontend/dist/
+frontend/.vite/
+
+# логи и временные файлы редакторов
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
