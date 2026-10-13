@@ -1,7 +1,6 @@
 # локальные секреты и настройки окружения не публикуются в github
 .env
 .env.*
-!.env.example
 backend/.env
 frontend/.env
 
